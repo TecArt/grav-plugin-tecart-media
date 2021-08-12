@@ -1,0 +1,23 @@
+{% extends 'partials/base.html.twig' %}
+
+{% if admin.route %}
+    {% set context = admin.page(true) %}
+{% endif %}
+
+{% block titlebar %}
+    <h1><i class="fa fa-fw fa-shield"></i> {{ "PLUGIN_TECART_MEDIA.PLUGIN_HEADLINE"|tu }}
+        <sub><a href="www.tecart.de" target="_blank"> {{ "PLUGIN_TECART_MEDIA.PLUGIN_HEADLINE_SUB"|tu }}</a></sub>
+    </h1>
+{% endblock %}
+
+{% block content %}
+    {% if filemanager_exists %}
+        <iframe width="100%" height="auto" style="min-height: 800px;" src="{{ filemanager_path }}" frameborder="no"></iframe>
+    {% else %}
+        <div class="alert alert-primary" role="alert" style="padding: 3rem; font-weight: bold;">
+            {{ "PLUGIN_TECART_MEDIA.PLUGIN_NO_FILEMANAGER_FOUND"|tu }}
+        </div>
+    {% endif %}
+{% endblock %}
+
+

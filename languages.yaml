@@ -1,0 +1,15 @@
+en:
+    PLUGIN_TECART_MEDIA:
+        TEXT_FOLDER: Folder name
+        TEXT_FOLDER_INFO: Media storage folder. Default tecart-media
+        PLUGIN_HEADLINE: TecArt Media
+        PLUGIN_HEADLINE_SUB: by TecArt GmbH
+        PLUGIN_NO_FILEMANAGER_FOUND: If Filemanager not found, maybe filemanager files are copied to your Grav root at them moment if it is your first call to tecart media. This happens only at the first call. Wait a Moment and reload then. Otherwise try to check permissions of your Grav project folder or try to copy whole folder user/plugins/tecart-media/vendor/tecart-media-filemanager with all files to the root of your Grav project.
+de:
+    PLUGIN_TECART_MEDIA:
+        TEXT_FOLDER: Verzeichnisname
+        TEXT_FOLDER_INFO: Media Verzeichnis zur Ablage der Medien. Standard tecart-media
+        PLUGIN_HEADLINE: TecArt Media
+        PLUGIN_HEADLINE_SUB: by TecArt GmbH
+        PLUGIN_NO_FILEMANAGER_FOUND: Wenn der Dateimanager nicht gefunden wurde, werden möglicherweise die Dateimanager-Dateien in diesem Moment einmalig in Ihr Grav-Stammverzeichnis kopiert, falls dies Ihr erster Aufruf von TecArt Media ist. Warten Sie einen Moment und laden Sie die Seite neu. Andernfalls versuchen Sie, die Berechtigungen Ihres Grav-Projektordners zu überprüfen oder kopieren Sie den gesamten Ordner user/plugins/tecart-media/vendor/tecart-media-filemanager mit allen Dateien ins Root ihres Grav Projects.
+

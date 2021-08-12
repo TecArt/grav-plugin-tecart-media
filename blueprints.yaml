@@ -1,0 +1,39 @@
+name: TecArt Media
+slug: tecart-media
+type: plugin
+version: 0.1.0
+description: Add a media folder to grav admin panel to manage images, videos etc.
+icon: globe
+author:
+    name: Christiana Holland-Jobb | TecArt GmbH
+    email: christiana.holland-jobb@tecart.de
+homepage: https://github.com/TecArt/grav-plugin-tecart-media
+keywords: grav, plugin, media, library, images, folder
+bugs: https://github.com/TecArt/grav-plugin-tecart-media/issues
+docs: https://github.com/TecArt/grav-plugin-tecart-media/blob/develop/README.md
+license: MIT
+
+dependencies:
+    - { name: grav, version: '>=1.7.0' }
+    - { name: admin, version: '>=1.9.16' }
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    folder:
+        type: display
+        label: PLUGIN_TECART_MEDIA.TEXT_FOLDER
+        content: user/pages/tecart-media
+    folder_info:
+        type: display
+        content: PLUGIN_TECART_MEDIA.TEXT_FOLDER_INFO
