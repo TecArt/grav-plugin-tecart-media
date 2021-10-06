@@ -167,6 +167,31 @@ Also you can find them easily via markdown and perform operations on them:
 
 See also Grav Docs for media usage: https://learn.getgrav.org/17/content/media
 
+Use Folder in Blueprint
+
+- as Filepicker
+```yaml
+file:
+    type: filepicker
+    folder: 'user/pages/tecart-media'
+    preview_images: true
+    label: vorhandenes Logo anzeigen
+```
+
+- as Fileupload
+```yaml
+fileUpload:
+    name: iconImageUpload
+    type: file
+    limit: 1
+    label: Logo
+    destination: 'user/pages/tecart-media'
+    multiple: false
+    autofocus: false
+    accept:
+        - image/*
+```
+
 ## Credits
 
 **Tiny File Manager**
