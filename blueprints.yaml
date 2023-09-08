@@ -2,11 +2,11 @@ name: TecArt Media
 slug: tecart-media
 type: plugin
 version: 0.1.0
-description: Add a media folder to grav admin panel to manage images, videos etc.
+description: Add a media folder to grav admin panel to manage images, videos etc. The plugin is created by [TecArt GmbH](https://www.tecart.de) and based on [TinyFileManager](https://github.com/prasathmani/tinyfilemanager/wiki).
 icon: globe
 author:
     name: Christiana Holland-Jobb | TecArt GmbH
-    email: christiana.holland-jobb@tecart.de
+    email: technik@tecart.de
 homepage: https://github.com/TecArt/grav-plugin-tecart-media
 keywords: grav, plugin, media, library, images, folder
 bugs: https://github.com/TecArt/grav-plugin-tecart-media/issues
